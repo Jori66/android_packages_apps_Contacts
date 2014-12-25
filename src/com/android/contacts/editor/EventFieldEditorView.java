@@ -75,7 +75,7 @@ public class EventFieldEditorView extends LabeledEditorView {
 
         Resources resources = mContext.getResources();
         mPrimaryTextColor = resources.getColor(R.color.primary_text_color);
-        mSecondaryTextColor = resources.getColor(R.color.secondaryTextColor);
+        mSecondaryTextColor = resources.getColor(R.color.secondary_text_color);
         mNoDateString = mContext.getString(R.string.event_edit_field_hint_text);
 
         mDateView = (Button) findViewById(R.id.date_view);
