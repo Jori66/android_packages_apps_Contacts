@@ -255,7 +255,7 @@ public class EventFieldEditorView extends LabeledEditorView {
     public void clearAllFields() {
         // Update UI
         mDateView.setText(mNoDateString);
-        mDateView.setTextColor(mHintTextColor);
+        mDateView.setTextColor(mSecondaryTextColor);
 
         // Update state
         final String column = getKind().fieldList.get(0).column;
